@@ -93,3 +93,30 @@ body {
   line-height: 1.75;
   font-size: 1rem;
 }
+
+.card--img-right,
+.card--img-left {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-text {
+  flex: 1;
+  padding: 32px;
+}
+
+.card--img-right .card-text,
+.card--img-left .card-text {
+  padding: 32px;
+}
+
+.card-img {
+  width: 280px;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
